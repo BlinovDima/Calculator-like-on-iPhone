@@ -1,0 +1,7 @@
+/*Анимация в проекте*/
+.orange:hover {
+  color: black;
+}
+.btn:hover {
+  outline: 3px solid red;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор как на iPhone</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calkiphone">
+        <input type="text" id="screen" class="inp" value="0" />
+        <div class="buttons">
+          <button id="clean" class="btn white">C</button>
+          <button id="plusMinus" class="btn white">+/-</button>
+          <button id="procent" class="btn white">%</button>
+          <button id="delenie" class="btn orange">&divide;</button>
+          <button id="seven" class="btn gray">7</button>
+          <button id="eight" class="btn gray">8</button>
+          <button id="nine" class="btn gray">9</button>
+          <button id="umnoz" class="btn orange">x</button>
+          <button id="four" class="btn gray">4</button>
+          <button id="five" class="btn gray">5</button>
+          <button id="six" class="btn gray">6</button>
+          <button id="minus" class="btn orange">-</button>
+          <button id="one" class="btn gray">1</button>
+          <button id="two" class="btn gray">2</button>
+          <button id="three" class="btn gray">3</button>
+          <button id="plus" class="btn orange">+</button>
+          <button id="zero" class="btn gray bigBtn">0</button>
+          <button id="zapat" class="btn gray">.</button>
+          <button id="ravno" class="btn orange">=</button>
+        </div>
+      </div>
+      <div id="info">
+        <p>Информация</p>
+        <hr />
+        <p id="ptext">
+          Чтобы рассчитать процент от числа: Введите число от которого хотите
+          рассчитать процент, потом нажмит на Калькуляторе кнопку процент, затем
+          введите количество процентов и нажмите равно!
+        </p>
+        <hr />
+        <p id="output"></p>
+      </div>
+    </div>
+    <script src="js/lib/mylib.js"></script>
+    <script src="js/var.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

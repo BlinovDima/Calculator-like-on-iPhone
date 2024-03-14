@@ -1,0 +1,71 @@
+/*Основные настройки проекта*/
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+}
+.calkiphone {
+  padding-top: 90px;
+  margin: 0 auto;
+  width: 300px;
+  height: 460px;
+  outline: 6px solid silver;
+  border-radius: 20px;
+  box-shadow: inset rgba(0, 0, 0, 0.6) 0 -3px 8px,
+    inset rgba(252, 255, 255, 0.7) 0 3px 8px, rgba(0, 0, 0, 0.8) 0 3px 8px -3px;
+  background-color: black;
+}
+
+/*Установка стилей табло*/
+#screen {
+  margin-left: 5px;
+  width: 275px;
+  height: 80px;
+  text-align: right;
+  font-size: 60px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+/*Установка стилей кнопок*/
+.buttons {
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+}
+.bigBtn {
+  width: 125px;
+  border-radius: 20px;
+}
+
+/*Стили информационного поля*/
+#info {
+  width: 50%;
+  height: 350px;
+  outline: 1px solid black;
+  margin-right: 25px;
+  text-align: center;
+}
+#output {
+  font-size: 25px;
+  text-align: center;
+  line-height: 250px;
+  color: brown;
+}
+#ptext {
+  font-size: 16px;
+  text-align: center;
+  color: blue;
+}

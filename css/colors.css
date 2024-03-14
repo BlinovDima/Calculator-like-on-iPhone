@@ -1,0 +1,13 @@
+/*цвета кнопок*/
+.white {
+  background-color: lightgray;
+  color: black;
+}
+.orange {
+  background-color: orange;
+  color: white;
+}
+.gray {
+  background-color: rgb(48, 48, 45);
+  color: white;
+}
